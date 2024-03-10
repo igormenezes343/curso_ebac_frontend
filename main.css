@@ -23,6 +23,7 @@ input, button{
     display: block;
     padding: 8px;
     margin: 8px;
+    width: 100%;
     margin-bottom: 8px;
     resize: none;
     
