@@ -9,7 +9,7 @@ form.addEventListener('submit',function(e){
     const campoB = parseFloat(campoBinput.value);
 
     const mensagemFalso = `Tente outra vez`;
-    const mensagemVerdade = ` Esta correto o numero ${campoB} é maior que o numero ${campoA}`;
+    const mensagemVerdade = `Esta correto o número ${campoB} é maior que o número ${campoA}`;
     
     if(campoA >= campoB){
         const containerFalso = document.querySelector('.mensagen-falso');
